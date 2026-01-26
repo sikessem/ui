@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d63b67342b6a34bc44e5832d0011b3c",
+    "content-hash": "9d9e45414c0f5dd195e1ca63360c916e",
     "packages": [
         {
             "name": "brick/math",
@@ -14004,16 +14004,16 @@
         },
         {
             "name": "sikessem/framework",
-            "version": "v0.9.2",
+            "version": "v0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sikessem/Framework.git",
-                "reference": "10d4a5680e89580b356a9959962d0a54d022cb52"
+                "reference": "8ee0d67be4f429c28bddb80cdf1c43da70adb39f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sikessem/Framework/zipball/10d4a5680e89580b356a9959962d0a54d022cb52",
-                "reference": "10d4a5680e89580b356a9959962d0a54d022cb52",
+                "url": "https://api.github.com/repos/Sikessem/Framework/zipball/8ee0d67be4f429c28bddb80cdf1c43da70adb39f",
+                "reference": "8ee0d67be4f429c28bddb80cdf1c43da70adb39f",
                 "shasum": ""
             },
             "require": {
@@ -14064,7 +14064,7 @@
                 "issues": "https://github.com/sikessem/framework/issues",
                 "source": "https://github.com/sikessem/framework"
             },
-            "time": "2025-08-18T05:32:58+00:00"
+            "time": "2025-08-21T16:53:00+00:00"
         },
         {
             "name": "sikessem/laravel-devtools",
@@ -16571,7 +16571,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.2"
+        "php": "*"
     },
     "platform-dev": {},
     "plugin-api-version": "2.9.0"
