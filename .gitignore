@@ -49,3 +49,4 @@ error_log*
 /test-results/
 /playwright-report/
 /playwright/.cache/
+/.php-cs-fixer.*
