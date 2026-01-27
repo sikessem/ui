@@ -3,12 +3,12 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22.17",
-    "pnpm": ">=10.12",
+    "node": ">=24.13",
+    "pnpm": ">=10.28",
     "npm": "prefer using pnpm",
     "yarn": "prefer using pnpm"
   },
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.28.2",
   "publishConfig": {
     "access": "public"
   },

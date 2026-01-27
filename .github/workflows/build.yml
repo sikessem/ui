@@ -27,15 +27,15 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         node: [22.17]
-        pnpm: [10.12.4]
+        pnpm: [10.28.2]
     name: 📦️ Build Node-${{ matrix.node }} on ${{ matrix.os }}
 
     steps:
       - name: 🚚 Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: ✨ Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
 
@@ -51,7 +51,7 @@ jobs:
         run: pnpm build
 
       - name: 📂 Upload Deno distribution files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: deno_dist
           path: packages/ui/jsr
