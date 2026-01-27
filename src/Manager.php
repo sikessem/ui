@@ -26,7 +26,7 @@ class Manager implements IsManager
     protected array $components = [];
 
     /**
-     * @var array<ComponentTag>
+     * @var array<IsComponentTag>
      */
     protected array $tags = [];
 
